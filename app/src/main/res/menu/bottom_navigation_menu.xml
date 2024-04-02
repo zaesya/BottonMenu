@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_item1"
+        android:icon="@drawable/nav1"
+        android:title="2D Figure" />
+    <item
+        android:id="@+id/menu_item2"
+        android:icon="@drawable/nav2"
+        android:title="geometry" />
+    <item
+        android:id="@+id/menu_item3"
+        android:icon="@drawable/nav3"
+        android:title="profile" />
+</menu>

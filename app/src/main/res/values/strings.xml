@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">dimention calc.</string>
+
+
+    <string-array name="namaBangunDtr">
+        <item>kubus</item>
+        <item>balok</item>
+        <item>silit</item>
+        <item>zesya</item>
+    </string-array>
+
+    <string-array name="deskripsiBangunnDtr">
+        <item>wong ireng</item>
+        <item>ayu</item>
+        <item>jihad</item>
+        <item>nikah</item>
+    </string-array>
+
+    <string-array name="namaBangunRug">
+        <item>jihad</item>
+        <item>cinta</item>
+        <item>sayang</item>
+        <item>zesya</item>
+    </string-array>
+
+    <string-array name="deskripsiBangunRug">
+        <item>wong ireng</item>
+        <item>rico</item>
+        <item>jihad</item>
+        <item>nikah</item>
+    </string-array>
+</resources>
