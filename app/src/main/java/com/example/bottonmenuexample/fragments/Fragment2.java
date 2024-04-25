@@ -69,19 +69,20 @@ public class Fragment2 extends Fragment implements adapterbangun.ItemClickListen
 
     @Override
     public void onItemClick(View view, int position) {
-        if (adapter.getItem(position).getNamaBangunn().equals("Kubus")) {
-            Intent intent = new Intent(getActivity(), kubus.class);
-            startActivity(intent);
-        } else if (adapter.getItem(position).getNamaBangunn().equals("Balok")) {
-            Intent intent = new Intent(getActivity(), balok.class);
-            startActivity(intent);
-        } else if (adapter.getItem(position).getNamaBangunn().equals("Silinder")) {
-            Intent intent = new Intent(getActivity(), silinder.class);
-            startActivity(intent);
-        } else {
-            Intent intent = new Intent(getActivity(), kerucut.class);
-            startActivity(intent);
-        }
+        if(adapter.getItem(position).getNamaBangunn().equals("kubus")) {
+        Intent intent = new Intent(getActivity(), kubus.class);
+        startActivity(intent);
+    } else if (adapter.getItem(position).getNamaBangunn().equals("balok")) {
+        Intent intent = new Intent(getActivity(), balok.class);
+        startActivity(intent);
+    } else if (adapter.getItem(position).getNamaBangunn().equals("silinder")) {
+        Intent intent = new Intent(getActivity(), silinder.class);
+        startActivity(intent);
+    } else if (adapter.getItem(position).getNamaBangunn().equals("kerucut")) {
+        Intent intent = new Intent(getActivity(), kerucut.class);
+        startActivity(intent);
+
+    }
     }
 }
 
