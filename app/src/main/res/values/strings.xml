@@ -10,10 +10,11 @@
     </string-array>
 
     <string-array name="deskripsiBangunnDtr">
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+
+        <item>L = s x s</item>
+        <item>L = P x L</item>
+        <item>L = 1/2 x a x t </item>
+        <item> L = π × r × r </item>
     </string-array>
 
     <string-array name="namaBangunRug">
@@ -24,9 +25,9 @@
     </string-array>
 
     <string-array name="deskripsiBangunRug">
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item>L = 6 x s x s</item>
+        <item>L = 2 x (π x r2) + 2 x π x r x t = 2 x π x r x (r + t)</item>
+        <item>L = π r² x h</item>
+        <item>L = (π r s) + (π r²) atau L = π r (s+r)</item>
     </string-array>
 </resources>
